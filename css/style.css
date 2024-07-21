@@ -1,0 +1,157 @@
+body{
+  background-color: #0D0D0D;
+  color: #f9f6f6 !important;
+  
+}
+.side-nav-menu{
+  z-index: 8888;
+}
+.move{
+  display: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.move2{
+  display: none;
+  position: relative;
+  left: 0;
+}
+.move3{
+  display: none;
+  position: relative;
+  left: 0;
+}
+.move4{
+  display: none;
+  position:relative;
+  left: 0;
+}
+.move5{
+  display: none;
+  position: relative;
+  left: 0;
+}
+.error{
+
+  color: red;
+  display: none;
+}
+#contact .form-control {
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  border-color: #CED4DA;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  color: #fff;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.nav-tab{
+  background-color: #0D0D0D;
+}
+.logo{
+  width: 50px;
+}
+
+i{
+  cursor: pointer;
+  
+}
+.blurred{
+  filter: blur(2px) !important;
+}
+
+.list-unstyled li{
+transition: 0.3s;
+}
+.list-unstyled li:hover{
+  color: red;
+  cursor: pointer;
+  }
+.cardImage {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.overlay {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  /* opacity: 0;
+  visibility: hidden; */
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: white;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+
+
+.mytop{
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
+  /* transform: translateX(-50%); */
+}
+
+::placeholder {
+  color: white; /* Change placeholder color here */
+}
+
+/* Style for input with colored placeholder in Firefox */
+input:-moz-placeholder {
+  color: white;
+}
+
+/* Style for input with colored placeholder in Internet Explorer 10+ */
+input::-ms-input-placeholder {
+  color: white;
+}
+ 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::placeholder {
+  color:rgb(128, 128, 128) !important;
+}
